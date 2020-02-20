@@ -9,9 +9,9 @@ Example
 ------------
 ```
 module "awsvianatgw" {
-  source = "git::https://stash.aws.dnb.com/scm/netops/awsvianatgw.git"
+  source = "git::https://github.com/fstuck37/aws.lambda.awsvianatgw.git"
   AWSregions = "us-west-2"
-  AWSvpcids = "vpc-20c7b12478a923d47"
+  AWSvpcids = "vpc-123456789abc"
   AWSservices = "S3"
   tags = { 
     ProjectName    = "Infrastructure"
